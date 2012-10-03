@@ -1,0 +1,27 @@
+{
+  "name": "markdowns",
+  "version": "1.0.0",
+  "description": "Watches and converts Markdown files into HTML files.",
+  "bin": "markdowns.js",
+  
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crdx/markdowns.git"
+  },
+  
+  "dependencies": {
+    "marked": "*",
+    "argparse": "*"
+  },
+
+  "bugs": {
+    "url": "https://github.com/crdx/markdowns/issues"
+  },
+
+  "keywords": [
+    "markdown"
+  ],
+  
+  "author": "crdx",
+  "license": "GPL"
+}
