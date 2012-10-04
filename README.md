@@ -1,8 +1,8 @@
 # markdowns
 
-**markdowns** watches and converts Markdown files into HTML files.
+**markdowns** is a node.js application that watches and converts Markdown files into HTML files.
 
-## Install
+## Installation Instructions
 
 You can install the package and its dependencies using `npm`.
 
@@ -10,13 +10,13 @@ You can install the package and its dependencies using `npm`.
 
     npm install -g markdowns
    
-### From a local directory
+### From the current directory
 
     npm install -g
 
 ## Usage
 
-    usage: markdowns [-h] [-v] [-w] [-p] [-V] [-d] [-e EXTENSION] [-f] [directory]
+    Usage: markdowns [-h] [-v] [-w] [-p] [-V] [-d] [-e EXTENSION] [-f] [directory]
     
     Watches and converts Markdown files into HTML files.
     
