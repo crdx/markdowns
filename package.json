@@ -1,8 +1,8 @@
 {
   "name": "markdowns",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Watches and converts Markdown files into HTML files.",
-  "bin": "markdowns.js",
+  "bin": "bin/markdowns",
   
   "repository": {
     "type": "git",
