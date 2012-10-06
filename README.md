@@ -39,6 +39,8 @@ If invoked with the `-p` or `--process` argument, **markdowns** will perform a o
 
 If invoked with the `-w` or `--watch` argument, **markdowns** will continuously watch all the Markdown files in the directory for changes, and convert any in which a change is detected.
 
+The output files will have the same name as the original files but with `html` as the file extension.
+
 **Note**: It would not be unreasonable to supply both `-p` and `-w` at the same time if you wanted to both process a directory and then watch it.
 
 The default Markdown file extension is `md`, but this can be overridden with the `-e` or `--extension` argument. 
