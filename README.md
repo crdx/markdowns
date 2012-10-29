@@ -9,7 +9,7 @@ You can install the package and its dependencies using `npm`.
 ### From the npm registry
 
     npm install -g markdowns
-   
+
 ### From the current directory
 
     npm install -g
@@ -17,12 +17,12 @@ You can install the package and its dependencies using `npm`.
 ## Usage
 
     Usage: markdowns [-h] [-v] [-w] [-p] [-V] [-d] [-e EXTENSION] [-f] [-n ENCODING] [directory]
-    
+
     Watches and converts Markdown files into HTML files.
-    
+
     Positional arguments:
       directory             The directory to process or watch. Defaults to the current directory.
-    
+
     Optional arguments:
       -h, --help            Show this help message and exit.
       -v, --version         Show program's version number and exit.
@@ -44,7 +44,7 @@ The output files will have the same name as the original files but with `html` a
 
 **Note**: It would not be unreasonable to supply both `-p` and `-w` at the same time if you wanted to both process a directory and then watch it.
 
-The default Markdown file extension is `md`, but this can be overridden with the `-e` or `--extension` argument. 
+The default Markdown file extension is `md`, but this can be overridden with the `-e` or `--extension` argument.
 
 ## Dependencies
 
