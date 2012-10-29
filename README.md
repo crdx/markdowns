@@ -2,7 +2,7 @@
 
 **markdowns** is a node.js application that watches and converts Markdown files into HTML files.
 
-## Installation Instructions
+## Installation
 
 You can install the package and its dependencies using `npm`.
 
