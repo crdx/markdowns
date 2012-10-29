@@ -16,13 +16,12 @@ You can install the package and its dependencies using `npm`.
 
 ## Usage
 
-    Usage: markdowns [-h] [-v] [-w] [-p] [-V] [-d] [-e EXTENSION] [-f] [directory]
+    Usage: markdowns [-h] [-v] [-w] [-p] [-V] [-d] [-e EXTENSION] [-f] [-n ENCODING] [directory]
     
     Watches and converts Markdown files into HTML files.
     
     Positional arguments:
-      directory             The directory to process or watch. Defaults to the
-                            current directory.
+      directory             The directory to process or watch. Defaults to the current directory.
     
     Optional arguments:
       -h, --help            Show this help message and exit.
@@ -32,9 +31,11 @@ You can install the package and its dependencies using `npm`.
       -V, --verbose         Be verbose.
       -d, --debug           Show debugging output.
       -e EXTENSION, --extension EXTENSION
-                            Set the file extension of Markdown files.
+                            Set the file extension of Markdown files. Defaults to md.
       -f, --force           Ignore warnings.
-    
+      -n ENCODING, --encoding ENCODING
+                            Set the file encoding of the output files (ascii or utf8). Defaults to utf8.
+
 If invoked with the `-p` or `--process` argument, **markdowns** will perform a one-time pass over the Markdown files in the directory, converting each one to HTML.
 
 If invoked with the `-w` or `--watch` argument, **markdowns** will continuously watch all the Markdown files in the directory for changes, and convert any in which a change is detected.
