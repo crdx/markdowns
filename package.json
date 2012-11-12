@@ -13,8 +13,8 @@
   },
   
   "dependencies": {
-    "marked": "0.2.x",
-    "argparse": "0.1.x"
+    "marked": "~0.2.5",
+    "argparse": "~0.1.7"
   },
 
   "bugs": {

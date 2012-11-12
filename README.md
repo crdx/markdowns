@@ -49,8 +49,8 @@ The default Markdown file extension is `md`, but this can be overridden with the
 ## Dependencies
 
 * [node.js](https://github.com/joyent/node)
-* [marked](https://github.com/chjj/marked) 0.2.x
-* [argparse](https://github.com/nodeca/argparse) 0.1.x
+* [marked](https://github.com/chjj/marked) ~0.2.5
+* [argparse](https://github.com/nodeca/argparse) ~0.1.7
 
 ## Bugs or contributions
 
