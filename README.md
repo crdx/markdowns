@@ -58,4 +58,4 @@ Open an [issue](http://github.com/crdx/markdowns/issues) or send a [pull request
 
 ## Licence
 
-[MIT](https://github.com/crdx/markdowns/blob/master/LICENCE.md).
+[MIT](LICENCE.md).
