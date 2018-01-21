@@ -4,23 +4,18 @@
   "description": "Watches and converts Markdown files into HTML files.",
   "author": "crdx",
   "license": "MIT",
-
   "bin": "bin/markdowns",
-  
   "repository": {
     "type": "git",
     "url": "git://github.com/crdx/markdowns.git"
   },
-  
   "dependencies": {
-    "marked": "~0.2.5",
-    "argparse": "~0.1.7"
+    "argparse": "1.0.9",
+    "marked": "0.3.12"
   },
-
   "bugs": {
     "url": "https://github.com/crdx/markdowns/issues"
   },
-
   "keywords": [
     "markdown",
     "watcher"
