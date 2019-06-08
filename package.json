@@ -1,6 +1,6 @@
 {
   "name": "markdowns",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Watches and converts Markdown files into HTML files.",
   "author": "crdx",
   "license": "MIT",
