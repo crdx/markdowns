@@ -4,15 +4,15 @@
 
 ## Installation
 
-You can install the package and its dependencies using `npm`.
+You can install the package and its dependencies using `yarn`.
 
-### From the npm registry
+### From the registry
 
-    npm install -g markdowns
+    yarn install -g markdowns
 
 ### From the current directory
 
-    npm install -g
+    yarn install -g
 
 ## Usage
 
@@ -49,8 +49,8 @@ The default Markdown file extension is `md`, but this can be overridden with the
 ## Dependencies
 
 * [node.js](https://github.com/joyent/node)
-* [marked](https://github.com/chjj/marked) ~0.2.5
-* [argparse](https://github.com/nodeca/argparse) ~0.1.7
+* [marked](https://github.com/chjj/marked)
+* [argparse](https://github.com/nodeca/argparse)
 
 ## Bugs or contributions
 
