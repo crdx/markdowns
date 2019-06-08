@@ -2,17 +2,17 @@
 
 **markdowns** is a node.js application that watches and converts Markdown files into HTML files.
 
-## Installation
+## npx (easiest & laziest)
 
-You can install the package and its dependencies using `yarn`.
+Run `npx markdowns` .
 
-### From the registry
+## Installation (alternative to npx)
 
-    yarn install -g markdowns
+Install the package and its dependencies with `yarn`.
 
-### From the current directory
+    yarn add markdowns
 
-    yarn install -g
+Then either access the binary directly at `node_modules/.bin/markdowns` or reference it as `markdowns` in `package.json` scripts.
 
 ## Usage
 
@@ -45,12 +45,6 @@ The output files will have the same name as the original files but with `html` a
 **Note**: It would not be unreasonable to supply both `-p` and `-w` at the same time if you wanted to both process a directory and then watch it.
 
 The default Markdown file extension is `md`, but this can be overridden with the `-e` or `--extension` argument.
-
-## Dependencies
-
-* [node.js](https://github.com/joyent/node)
-* [marked](https://github.com/chjj/marked)
-* [argparse](https://github.com/nodeca/argparse)
 
 ## Bugs or contributions
 
