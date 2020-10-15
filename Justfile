@@ -1,5 +1,5 @@
 _help:
-    just --list
+    @just --list
 
 publish:
     npm publish
