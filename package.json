@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "argparse": "^1",
-    "marked": "^1"
+    "marked": "^2"
   },
   "bugs": {
     "url": "https://github.com/crdx/markdowns/issues"
