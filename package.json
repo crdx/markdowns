@@ -1,6 +1,6 @@
 {
   "name": "markdowns",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "Watches and converts Markdown files into HTML files.",
   "author": "crdx",
   "license": "MIT",
@@ -10,8 +10,8 @@
     "url": "git://github.com/crdx/markdowns.git"
   },
   "dependencies": {
-    "argparse": "^1",
-    "marked": "^1"
+    "argparse": "2.0.1",
+    "marked": "2.0.0"
   },
   "bugs": {
     "url": "https://github.com/crdx/markdowns/issues"
