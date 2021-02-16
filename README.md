@@ -2,11 +2,11 @@
 
 **markdowns** is a node.js application that watches and converts Markdown files into HTML files.
 
-## npx (easiest & laziest)
+## npx
 
 Run `npx markdowns` .
 
-## Installation (alternative to npx)
+## Permanent installation
 
 Install the package and its dependencies with `yarn`.
 
