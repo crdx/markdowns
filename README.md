@@ -48,7 +48,7 @@ The default Markdown file extension is `md`, but this can be overridden with the
 
 ## Bugs or contributions
 
-Open an [issue](http://github.com/crdx/markdowns/issues) or send a [pull request](http://github.com/crdx/markdowns/pulls).
+Open an [issue](https://github.com/crdx/markdowns/issues) or send a [pull request](https://github.com/crdx/markdowns/pulls).
 
 ## Licence
 
