@@ -46,7 +46,7 @@ The output files will have the same name as the original files but with `html` a
 
 The default Markdown file extension is `md`, but this can be overridden with the `-e` or `--extension` argument.
 
-## Bugs or contributions
+## Contributions
 
 Open an [issue](https://github.com/crdx/markdowns/issues) or send a [pull request](https://github.com/crdx/markdowns/pulls).
 
