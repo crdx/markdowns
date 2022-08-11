@@ -52,4 +52,4 @@ Open an [issue](https://github.com/crdx/markdowns/issues) or send a [pull reques
 
 ## Licence
 
-[MIT](LICENCE.md).
+[GPLv3](LICENCE).
