@@ -1,5 +1,6 @@
-_help:
-    @just --list --unsorted
+[private]
+@help:
+    just --list --unsorted
 
 publish:
     npm publish
