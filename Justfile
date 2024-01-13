@@ -1,5 +1,7 @@
+set quiet
+
 [private]
-@help:
+help:
     just --list --unsorted
 
 publish:
