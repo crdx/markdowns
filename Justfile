@@ -4,5 +4,8 @@ set quiet := true
 help:
     just --list --unsorted
 
-publish:
+deploy:
     npm publish
+
+fmt:
+    just --fmt
