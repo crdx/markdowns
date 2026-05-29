@@ -16,25 +16,25 @@ Then either access the binary directly at `node_modules/.bin/markdowns` or refer
 
 ## Usage
 
-    Usage: markdowns [-h] [-v] [-w] [-p] [-V] [-d] [-e EXTENSION] [-f] [-n ENCODING] [directory]
+    usage: markdowns [-h] [-v] [-w] [-p] [-V] [-d] [-e EXTENSION] [-f] [-n ENCODING] [directory]
 
-    Watches and converts Markdown files into HTML files.
+    Watch and convert Markdown files into HTML files.
 
-    Positional arguments:
-      directory             The directory to process or watch. Defaults to the current directory.
+    positional arguments:
+      directory             directory to process or watch [default: working directory]
 
-    Optional arguments:
-      -h, --help            Show this help message and exit.
-      -v, --version         Show program's version number and exit.
-      -w, --watch           Watch the current directory for changes.
-      -p, --process         Process all files in the current directory.
-      -V, --verbose         Be verbose.
-      -d, --debug           Show debugging output.
+    options:
+      -h, --help            show this help message and exit
+      -v, --version         show program's version number and exit
+      -w, --watch           watch the current directory for changes
+      -p, --process         process all files in the current directory
+      -V, --verbose         be verbose
+      -d, --debug           show debugging output
       -e EXTENSION, --extension EXTENSION
-                            Set the file extension of Markdown files. Defaults to md.
-      -f, --force           Ignore warnings.
+                            set the file extension of Markdown files [default: md]
+      -f, --force           ignore warnings
       -n ENCODING, --encoding ENCODING
-                            Set the file encoding of the output files (ascii or utf8). Defaults to utf8.
+                            set the file encoding of the output files (ascii or utf8) [default: utf8]
 
 If invoked with the `-p` or `--process` argument, **markdowns** will perform a one-time pass over the Markdown files in the directory, converting each one to HTML.
 
